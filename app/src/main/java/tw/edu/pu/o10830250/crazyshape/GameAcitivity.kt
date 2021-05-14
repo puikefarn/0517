@@ -21,7 +21,7 @@ class GameAcitivity : AppCompatActivity() {
                 finish()
             }
         })
-//
+//。。。
         btn.setOnClickListener(object : View.OnClickListener {
             override fun onClick(p0: View?) {
                 handv.path.reset()
