@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+///
         Toast.makeText(baseContext, "作者：貝克帆", Toast.LENGTH_LONG).show()
 //
         imgNext.setOnLongClickListener(object : View.OnLongClickListener {
