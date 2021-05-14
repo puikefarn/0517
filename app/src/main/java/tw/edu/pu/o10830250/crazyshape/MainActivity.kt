@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         Toast.makeText(baseContext, "作者：貝克帆", Toast.LENGTH_LONG).show()
-
+//
         imgNext.setOnLongClickListener(object : View.OnLongClickListener {
             override fun onLongClick(p0: View?): Boolean {
                 intent = Intent(this@MainActivity,GameAcitivity::class.java)
