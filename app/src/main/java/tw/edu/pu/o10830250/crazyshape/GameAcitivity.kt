@@ -79,7 +79,9 @@ class GameAcitivity : AppCompatActivity() {
                 FlagDraw=4}
         }
         Result += ": " + String.format("%.1f%%", outputs[0].score * 100.0f)
-
+//
+        //
+                //
 
         // Releases model resources if no longer used.
         model.close()
