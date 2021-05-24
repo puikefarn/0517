@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
             .override(800, 600)
             .into(img)
 
-
+//
 
         Toast.makeText(baseContext, "作者：貝克帆", Toast.LENGTH_LONG).show()
 
